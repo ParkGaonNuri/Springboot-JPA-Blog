@@ -43,7 +43,7 @@ public class User {
 	private String email;
 	
 	//@ColumnDefault("user")
-	//DB는 RoleType이라는게 없
+	//DB는 RoleType이라는게 없음 
 	@Enumerated(EnumType.STRING)
 	private RoleType role; //Enum을 쓰는게 좋음 // ADMIN, USER // 도메인 = 범위
 	
